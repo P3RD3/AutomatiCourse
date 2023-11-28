@@ -12,8 +12,7 @@ public class Main {
     public static void main (String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        int firstNumber = 0, secondNumber =0, thirdNumber =0;
-        int result;
+        int firstNumber = 0, secondNumber =0, thirdNumber;
         boolean retryFirst = false, retrySecond = false, retryThird = false;
 
     while(!(retryFirst && retrySecond && retryThird)) {

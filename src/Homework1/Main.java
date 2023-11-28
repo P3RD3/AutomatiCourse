@@ -20,21 +20,21 @@ public class Main {
     public static void main(String[] args) {
 
         // Define variables used to store user input
-        String Name, Hobby;
+        String name, hobby;
 
         // Create object of class scanner to read user input from console
         Scanner scanner = new Scanner(System.in);
 
         // Prompts the user to enter their name, reads user input and stores it in Name string.
         System.out.println("Hi, what is your name?");
-        Name = scanner.nextLine();
+        name = scanner.nextLine();
 
         // Prompts the user to enter their hobby, reads user input and stores it in Hobby string.
         System.out.println("What is your hobby?");
-        Hobby = scanner.nextLine();
+        hobby = scanner.nextLine();
 
         // Print out end result into console
-        System.out.println("Hello "+ Name + " , I also enjoy " + Hobby +"!!!");
+        System.out.println("Hello "+ name + " , I also enjoy " + hobby +"!!!");
 
     }
 }

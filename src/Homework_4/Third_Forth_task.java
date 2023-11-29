@@ -3,7 +3,7 @@ package Homework_4;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class ThirdTask {
+public class Third_Forth_task {
     public static void main (String[] args)
     {
         Scanner scanner = new Scanner(System.in);

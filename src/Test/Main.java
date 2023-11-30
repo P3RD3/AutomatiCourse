@@ -16,7 +16,9 @@ public class Main {
 
         averageValue(a,b);
         sum(a,b);
-
+        /* Дава това като пуснеш:
+        * The average of 1.0 and 2.0 is:1.5
+        * The sum of 1.0 and 2.0 is:3.0 */
     }
 
 }

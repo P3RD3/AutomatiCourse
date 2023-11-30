@@ -9,6 +9,7 @@ public class Fifth_Task
     {
       Scanner scanner = new Scanner(System.in);
       boolean retry = false;
+      // Цикъл с който подсигуряваме че потребителя ще въведе правилна стойност
       while(!retry)
       {
           try
@@ -17,6 +18,8 @@ public class Fifth_Task
               int a = scanner.nextInt();
               int num = 1;
               retry = true;
+
+              //Цикъл който намира всички числа който не се делят на 3 и 7
               while(num <= a)
               {
                 if ((num%3)!= 0 && (num % 7) !=0)
